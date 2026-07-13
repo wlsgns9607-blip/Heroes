@@ -19,6 +19,7 @@
       <li><a href="#persona">사용자</a></li>
       <li><a href="#features">기능</a></li>
       <li><a href="#impact">기대 효과</a></li>
+      <li><a href="#wireframe">와이어프레임</a></li>
     </ul>
   </nav>
 
@@ -204,6 +205,162 @@
       <div class="next-version reveal">
         <h3>🚀 다음 버전 계획</h3>
         <p>서울 MVP 이후 전국 소방서 대원들의 인사 고과 및 복지 포인트 시스템 연동, 소방관 전용 폐쇄형 커뮤니티 기능 확장. MVP 기능을 구급대원으로 확장 예정.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── APP WIREFRAME ── -->
+  <section class="section wireframe-section" id="wireframe">
+    <div class="container">
+      <p class="section-eyebrow">앱 와이어프레임</p>
+      <h2 class="section-title">모바일 앱<br /><span class="accent">화면 설계</span></h2>
+      <p class="wf-size-note">기준 프레임: iPhone 14/15 (390×844) · Galaxy S 시리즈(360×800)에서도 동일 비율로 대응</p>
+
+      <div class="phone-row">
+
+        <!-- SCREEN 01 · 출동 데이터 입력 Form -->
+        <div class="phone-col reveal">
+          <p class="phone-caption">01 · 출동 데이터 입력 Form</p>
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="wf-statusbar"></div>
+              <div class="wf-appbar">
+                <span class="wf-back">←</span>
+                <span class="wf-appbar-title">출동 기록 입력</span>
+              </div>
+              <div class="wf-body">
+                <div class="wf-field">
+                  <span class="wf-field-label">출동 유형</span>
+                  <div class="wf-select">건축물 화재 <i>▾</i></div>
+                </div>
+                <div class="wf-field">
+                  <span class="wf-field-label">인명 구조 인원</span>
+                  <div class="wf-select">2명 <i>▾</i></div>
+                </div>
+                <div class="wf-field">
+                  <span class="wf-field-label">결과</span>
+                  <div class="wf-select">진압 완료 <i>▾</i></div>
+                </div>
+                <div class="wf-field">
+                  <span class="wf-field-label">특이사항</span>
+                  <div class="wf-textarea"></div>
+                </div>
+              </div>
+              <div class="wf-cta">저장하기</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SCREEN 02 · 명예 배지 -->
+        <div class="phone-col reveal">
+          <p class="phone-caption">02 · 명예 배지 시스템</p>
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="wf-statusbar"></div>
+              <div class="wf-appbar">
+                <span class="wf-back">←</span>
+                <span class="wf-appbar-title">나의 명예 배지</span>
+              </div>
+              <div class="wf-body">
+                <div class="wf-progress">
+                  <div class="wf-progress-fill"></div>
+                </div>
+                <span class="wf-mini-label">자부심 게이지 78%</span>
+                <div class="wf-badge-grid">
+                  <div class="wf-badge-item on">❤️</div>
+                  <div class="wf-badge-item on">🏅</div>
+                  <div class="wf-badge-item on">🔥</div>
+                  <div class="wf-badge-item">🚒</div>
+                  <div class="wf-badge-item">🎖️</div>
+                  <div class="wf-badge-item">⭐</div>
+                </div>
+                <div class="wf-field">
+                  <span class="wf-field-label">최근 획득</span>
+                  <div class="wf-list-item"><span class="dot"></span><div class="wf-line"></div></div>
+                  <div class="wf-list-item"><span class="dot"></span><div class="wf-line short"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SCREEN 03 · 시민 감사 댓글 -->
+        <div class="phone-col reveal">
+          <p class="phone-caption">03 · 시민 감사 & 리스펙 댓글</p>
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="wf-statusbar"></div>
+              <div class="wf-appbar">
+                <span class="wf-back">←</span>
+                <span class="wf-appbar-title">시민의 감사 메시지</span>
+              </div>
+              <div class="wf-body">
+                <div class="wf-comment">
+                  <span class="avatar-sm"></span>
+                  <div class="wf-comment-lines">
+                    <div class="wf-line"></div>
+                    <div class="wf-line short"></div>
+                  </div>
+                </div>
+                <div class="wf-comment">
+                  <span class="avatar-sm"></span>
+                  <div class="wf-comment-lines">
+                    <div class="wf-line"></div>
+                    <div class="wf-line"></div>
+                    <div class="wf-line short"></div>
+                  </div>
+                </div>
+                <div class="wf-comment">
+                  <span class="avatar-sm"></span>
+                  <div class="wf-comment-lines">
+                    <div class="wf-line short"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="wf-input-bar">
+                <div class="wf-input-field"></div>
+                <div class="wf-send">☕</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SCREEN 04 · 음성 인식 입력 (5단계 상태) -->
+        <div class="phone-col reveal">
+          <p class="phone-caption">04 · 음성 인식 출동 기록 입력</p>
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="wf-statusbar"></div>
+              <div class="wf-appbar">
+                <span class="wf-back">←</span>
+                <span class="wf-appbar-title">음성으로 기록하기</span>
+              </div>
+              <div class="wf-body">
+                <div class="wf-transcript">
+                  <span class="wf-mini-label">실시간 인식 중…</span>
+                  <div class="wf-line"></div>
+                  <div class="wf-line short"></div>
+                </div>
+                <div class="wf-field">
+                  <span class="wf-field-label">출동 유형</span>
+                  <div class="wf-select auto">건축물 화재 <i>✓</i></div>
+                </div>
+                <div class="wf-field">
+                  <span class="wf-field-label">인명 구조</span>
+                  <div class="wf-select auto">2명 <i>✓</i></div>
+                </div>
+              </div>
+              <div class="wf-mic-wrap">
+                <div class="wf-mic-fab">🎙️</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
